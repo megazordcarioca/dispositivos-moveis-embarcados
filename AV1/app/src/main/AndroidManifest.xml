@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraAvaliacao">
         <activity
+            android:name=".area2Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".area1Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".dinamicSpinnerCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".staticSpinnerCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".radioCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".buttonCalculator"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
