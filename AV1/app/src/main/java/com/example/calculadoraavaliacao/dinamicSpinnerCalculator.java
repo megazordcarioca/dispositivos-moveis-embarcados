@@ -1,8 +1,7 @@
 package com.example.calculadoraavaliacao;
 
-import static java.lang.Math.pow;
-import static java.lang.Math.sqrt;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -69,5 +68,12 @@ public class dinamicSpinnerCalculator extends AppCompatActivity {
                 }
             }
         }
+    }
+    public void backToMenuWithResult(View f){
+        String resp = edtResp.getText().toString();
+        Intent returnIntent = new Intent();
+        returnIntent.putExtra("resp", resp);
+        setResult(RESULT_OK, returnIntent);
+        finish();
     }
 }

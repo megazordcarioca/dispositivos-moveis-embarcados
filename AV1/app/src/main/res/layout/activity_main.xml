@@ -61,16 +61,16 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="92dp"
-        android:layout_height="72dp"
-        android:text="Calcular area 1"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
         android:onClick="callArea1Screen"
+        android:text="Calcular area do triangulo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.815" />
 
     <Button
         android:id="@+id/button4"
@@ -113,16 +113,16 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="92dp"
-        android:layout_height="72dp"
-        android:text="Calcular area 2"
+        android:layout_width="181dp"
+        android:layout_height="62dp"
         android:onClick="callArea2Screen"
+        android:text="Calcular area do quadrado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.816" />
 
     <Button
         android:id="@+id/button2"

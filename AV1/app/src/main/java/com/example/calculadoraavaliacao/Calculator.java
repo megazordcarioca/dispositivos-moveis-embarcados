@@ -7,7 +7,6 @@ import android.widget.EditText;
 
 public class Calculator {
     double valor1, valor2;
-    EditText edtResp;
     //Atributos
 
     public Calculator() {  } // Construtores
